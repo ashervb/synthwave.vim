@@ -1,0 +1,1 @@
+# synthwave.vim
