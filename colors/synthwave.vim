@@ -40,12 +40,12 @@ if &t_Co >= 256 || has("gui_running")
 		hi TermCursorNC ctermbg=3 ctermfg=0 cterm=NONE guibg=#71949a guifg=#33303b gui=NONE
 		hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 		hi Title ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#615772 gui=NONE
-		hi CursorLine ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#4f4b58 gui=NONE
+		hi CursorLine ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#4f4b58 gui=NONE
 		hi LineNr ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#4f4b58 gui=NONE
 		hi CursorLineNr ctermbg=NONE ctermfg=8 cterm=NONE guibg=NONE guifg=#4f4b58 gui=NONE
 		hi helpLeadBlank ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#c0a79a gui=NONE
 		hi helpNormal ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#c0a79a gui=NONE
-		hi Visual ctermbg=8 ctermfg=0 cterm=NONE guibg=#4f4b58 guifg=#33303b gui=NONE
+		hi Visual ctermbg=8 ctermfg=7 cterm=NONE guibg=#4f4b58 guifg=#33303b gui=NONE
 		hi VisualNOS ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#87404f gui=NONE
 		hi Pmenu ctermbg=8 ctermfg=7 cterm=NONE guibg=#4f4b58 guifg=#c0a79a gui=NONE
 		hi PmenuSbar ctermbg=6 ctermfg=7 cterm=NONE guibg=#554757 guifg=#c0a79a gui=NONE
