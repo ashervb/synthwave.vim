@@ -44,3 +44,26 @@ Add the following to your `~/.vimrc` file and run `PlugInstall` in Vim.
     cd ~/.vim/colors
     git clone git://github.com/exitface/synthwave.vim synthwave.vim
     cp synthwave.vim/colors/*.vim .
+
+
+## vim-airline Theme
+
+![airline-synthwave.vim Preview](https://raw.github.com/exitface/synthwave.vim/master/docs/preview_airline.png)
+
+This repository includes a companion [vim-airline](https://github.com/vim-airline/vim-airline) theme for use with synthwave.vim.
+
+The vim-airline theme:
+
+* Depends on synthwave.vim for its colors, and must therefore be used in conjunction with it.
+* Works with both color modes available in synthwave.vim (16 or 256 colors), as specified in the configuration for synthwave.vim.
+* Is based on vim-airline's ["tomorrow" theme](https://github.com/vim-airline/vim-airline-themes/blob/master/autoload/airline/themes/tomorrow.vim).
+
+### Installation
+
+(These instructions assume that vim-airline and synthwave.vim are already installed and configured to your liking.)
+
+Place `synthwave.vim/autoload/airline/themes/synthwave.vim` in your `~/.vim/autoload/airline/themes/` directory either manually or by using your Vim plug-in manager of choice, then add the following line to your `~/.vimrc`:
+
+```vim
+let g:airline_theme='synthwave'
+```
